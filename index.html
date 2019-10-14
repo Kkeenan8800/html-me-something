@@ -3,6 +3,7 @@
 <html lang="en-US">
     <head>
         <title>page title</title>
+        <link href="stylesheet.css" rel="stylesheet" type="text/css"/>
     </head>
 
     <body style="color:rbga(100,48,143,0.5);">
@@ -13,7 +14,10 @@
         <a href="https://www.politico.com/">This is a link</a>  <br>
         <img src="../../ClimateResearch/SeaLevelChange.png" 
             width="200" height="200" alt="climate graph"><br>
-        <button onclick="window.alert('YAY..you actually clicked!!')">click me!</button>
+
+        
+        
+        <button class="clickButton" onclick="window.alert('YAY..you actually clicked!!')">click me!</button>
         <button onclick="window.alert('downloading malware...')">I am a button</button>
 
         <hr>
@@ -52,7 +56,7 @@
 
         <h1 style="text-align: center">CENTERED HEADING</h1>
 
-        <p style="text-align: center">
+        <p>
             <pre>
             This text is <b>bold, </b>
             this is <i>italics. </i>
@@ -71,7 +75,7 @@
         <hr>
         <p>a quote from politico:</p>
         <blockquote cite="https://www.politico.com/news/2019/10/10/trump-impeachment-legal-strategy-043696">
-            <q>To survive the riskiest battle of his presidency,
+            <q style="background-color: green;">To survive the riskiest battle of his presidency,
                 <aabr title="President of the United States">POTUS</aabr>
                 Trump is skipping the legal minutiae and pulling 
                 out his fighting gloves.</q>
@@ -89,6 +93,7 @@
             phrase.append('world')
         </script>
 
+        
         
         <hr>
         <br><br><br>

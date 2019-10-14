@@ -1,0 +1,14 @@
+p{
+    text-align: center;
+
+
+}
+
+#phrase{
+    background-color:green;
+    color: rgba(0,48,143,0.5);
+}
+
+.clickButton{
+    color: blue;
+}
